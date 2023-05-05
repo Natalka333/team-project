@@ -42,7 +42,8 @@ body {
 
 .about {}
 
-.container {}
+.container-about {
+}
 
 .section-about-title {
 	font-style: normal;
@@ -66,7 +67,11 @@ body {
 
 .section-about-gif {}
 
-.new {}
+
+/* NEW */
+
+
+.container-new {}
 
 .section-new-subtitle {
 	font-family: 'Epilogue';
@@ -76,6 +81,7 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.06em;
 	color: rgba(20, 20, 20, 0.4);
+	margin-bottom: 8px;
 }
 
 .section-new-title {
@@ -86,6 +92,7 @@ body {
 	line-height: 1.25;
 	letter-spacing: -0.02em;
 	color: #141414;
+	margin-bottom: 40px;
 }
 
 .new-list {}
