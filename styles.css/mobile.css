@@ -30,9 +30,9 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 } */
-@media screen and (min-width: 375px){
-	.container {
-		width: 335px;
+@media screen and (max-width: 375px){
+	.container-about {
+		max-width: 335px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 20px;
