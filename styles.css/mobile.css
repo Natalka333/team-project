@@ -134,7 +134,7 @@ body {
 /* about */
 /* MOBILE */
 
-.container-about-us {
+/* .container-about-us {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -186,7 +186,7 @@ body {
 
 .about-us-gif {
 	object-fit: cover;
-}
+} */
 
 
 /* TABLET */
@@ -197,23 +197,21 @@ body {
 		padding-left: 32px;
 		padding-right: 32px;
 	}
-
-	.container-about-us-wrap {
-		width: 704px;
-	}
 }
 
-/* @media screen and (min-width: 768px) {
-	.about > .container-about-us,
-	.container-about-wrap {
+.container-about-us-wrap {
+	width: 704px;
+}
+
+@media screen and (min-width: 768px) {
+.container-about-wrap {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 40px;
 	}
-}    */
-.container-about-us-wrap {
-	width: 704px;
-}
+
+}    
+
 
 /* .container-about-us-wrap {
 	display: flex;
@@ -237,7 +235,6 @@ body {
 }
 
 .section-about-us-title {
-	width: 174px;
 	font-weight: 600;
 	font-size: 40px;
 	line-height: 1.1;
